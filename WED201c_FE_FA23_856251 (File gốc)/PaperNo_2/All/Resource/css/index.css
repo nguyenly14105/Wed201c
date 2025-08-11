@@ -1,0 +1,62 @@
+body {
+  overflow-x: hidden;
+}
+.container-fluid {
+  padding: 0;
+}
+.content-header {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.slogan {
+  color: red;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  padding: 15px;
+  height: 130px;
+  width: 150px;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  background-color: #0ec0c3;
+  height: 50px;
+  width: auto;
+}
+.airblade h2 {
+  text-align: center;
+  margin: 30px;
+  color: #0ec0c3;
+}
+.main-image {
+  width: 745px;
+  height: 670px;
+}
+.sup-image {
+  display: flex;
+  justify-content: center;
+}
+.sup-image1 img {
+  padding: 0 30px;
+  margin: 10px;
+  margin-left: 0;
+}
+.sup-image2 img {
+  padding: 0 30px;
+  margin: 10px;
+  margin-right: 0;
+}
+.best-seller-title {
+  color: #0ec0c3;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}

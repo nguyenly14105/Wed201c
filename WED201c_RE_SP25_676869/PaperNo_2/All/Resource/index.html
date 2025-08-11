@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>LAMIA Design</title>
+
+    <!--CSS formatting for menu-->
+    <style>
+      .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #059085;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+
+      .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        color: #f3f90e;
+      }
+
+      .sidebar a:hover {
+        color: #ffffff;
+      }
+
+      .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #f76e12;
+        color: white;
+        padding: 10px;
+        border: none;
+      }
+
+      .openbtn:hover {
+        background-color: #0bc9c0;
+      }
+
+      #main {
+        transition: margin-left 0.5s;
+        padding: 10px;
+        margin-left: 300px;
+      }
+
+      /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+      @media screen and (max-height: 450px) {
+        .sidebar {
+          padding-top: 15px;
+        }
+        .sidebar a {
+          font-size: 18px;
+        }
+      }
+    </style>
+
+    <!--Embed your CSS here-->
+    <link rel="stylesheet" href="./css/styleindex.css" />
+  </head>
+
+  <body>
+    <div>
+      <!--div contains all the web page content-->
+
+      <div id="mySidebar" class="sidebar">
+        <!--div contains Menu content-->
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Party dress</a>
+        <a href="#">A-line dress</a>
+        <a href="#">Pleated Dress</a>
+        <a href="#">Women's Shirts</a>
+        <a href="#">Contact</a>
+      </div>
+      <!-- Finish div contains Menu content-->
+
+      <!-------------------------------------------------------------------------------------------------------------------->
+
+      <div class="header-container">
+        <!--div contains header content-->
+
+        <div class="logo">
+          <a href="index.html"><img src="images/logochanel.png" /></a>
+        </div>
+
+        <div class="search">
+          <form>
+            <input type="text" placeholder="Search in website" />
+            <button type="submit">Search</button>
+          </form>
+        </div>
+
+        <div>
+          <div id="main">
+            <button class="openbtn" onclick="openNav()">☰ Menu</button>
+          </div>
+        </div>
+      </div>
+      <!-- Finish div contains header content-->
+
+      <!-------------------------------------------------------------------------------------------------------------------->
+
+      <div class="best-seller-container">
+        <!--div contains Best Sellers content-->
+
+        <h1>Best Sellers</h1>
+
+        <div class="best-seller-content">
+          <div class="best-seller-image">
+            <div class="supimage">
+              <img src="images/B01.jpg" alt="Lamia" />
+              <img src="images/B02.jpg" alt="Lamia" />
+              <img src="images/B03.jpg" alt="Lamia" />
+              <img src="images/B04.jpg" alt="Lamia" />
+            </div>
+
+            <div class="mainimage">
+              <img src="images/Banner01.jpg" alt="Lamia" />
+            </div>
+          </div>
+
+          <div class="product-information">
+            <div class="infor-header">
+              <h2>Women's Long-Sleeved V-Neck Shirt With Bow Tie</h2>
+              <p>(Available)</p>
+            </div>
+            <div class="infor-content">
+              <p>Product code: LA392</p>
+
+              <p><del>$30 </del> $25</p>
+              <form action="#" method="post">
+                <p>
+                  <label>Number</label>
+                  <input type="number" name="Number" min="1" max="100" />
+                </p>
+
+                <p>
+                  <label>Size </label>
+                  <input type="text" name="Size" placeholder="Enter Size" /> (S-
+                  M - L- XL)
+                </p>
+              </form>
+            </div>
+
+            <div class="buy-button">
+              <div class="button">Add To Cart</div>
+              <div class="button">Buy Now</div>
+            </div>
+
+            <div class="return-policy">
+              <h3>Return policy</h3>
+
+              <p>
+                Lamia hopes that you will like the product you ordered. However,
+                if you are not 100% satisfied, Lamia offers a simple return
+                process as follows:
+              </p>
+
+              <p>
+                1- You call Hotline 0969.436.090 or send a message on Lamia
+                design fanpage to notify about the exchange.
+              </p>
+              <p>
+                2- Lamia will check, confirm and support you within 30 minutes.
+              </p>
+              <p>
+                3- Exchange time within 7 days from the date you receive the
+                product.
+              </p>
+              <p>
+                4- The exchanged product must have the original label, barcode
+                and be unused.
+              </p>
+              <p>
+                5- If the error is due to the manufacturer, Lamia will fully
+                cover the shipping cost of the product exchange.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div style="clear: both"></div>
+      </div>
+      <!--Finish div contains Best Sellers content-->
+
+      <!---------------------------------------------------------------------------------------------------------------------->
+
+      <div class="saleoff-container">
+        <!--div contains NEW YEAR SALE OFF content-->
+
+        <h1>NEW YEAR SALE OFF</h1>
+
+        <div class="saleoff-content">
+          <div class="product">
+            <img src="images/dress01.jpg" alt="Lamia" />
+            <h4>Round neck flared A-line dress with flowers LD362</h4>
+            <p><del>30$ </del> &nbsp; &nbsp; 25 $</p>
+            <div class="button">Buy Now</div>
+          </div>
+
+          <div class="product">
+            <img src="images/dress02.jpg" alt="Lamia" />
+            <h4>Pleated off-shoulder dress LD347</h4>
+            <p><del>28$ </del> &nbsp; &nbsp; 24$</p>
+            <div class="button">Buy Now</div>
+          </div>
+
+          <div class="product">
+            <img src="images/dress03.jpg" alt="Lamia" />
+            <h4>Short sleeve fishtail dress with pleated skirt LD257</h4>
+            <p><del>40$</del> &nbsp; &nbsp; 34$</p>
+            <div class="button">Buy Now</div>
+          </div>
+
+          <div class="product">
+            <img src="images/dress04.jpg" alt="Lamia" />
+            <h4>Short A-line dress with twisted neck LD209</h4>
+            <p><del>22$ </del> &nbsp; &nbsp; 20$</p>
+            <div class="button">Buy Now</div>
+          </div>
+        </div>
+
+        <div style="clear: both; margin-bottom: 10px"></div>
+      </div>
+      <!-- Finish div contains NEW YEAR SALE OFF content-->
+
+      <!---------------------------------------------------------------------------------------------------------------------->
+
+      <div class="footer-container">
+        <!--div contains Footer content-->
+
+        <p>Email : Lamia@gmail.com</p>
+        <p>Address: 100 Quang Trung,Go vap District, HCMC</p>
+        <h5>&copy; Copyright 2024. Lamia.com</h5>
+      </div>
+      <!-- Finish div contains Footer content-->
+    </div>
+    <!--Finish div contains all the web page content-->
+
+    <!--Embed your Javascript here-->
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px"; // Hiện menu
+      }
+
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0"; // Ẩn menu
+      }
+    </script>
+  </body>
+</html>

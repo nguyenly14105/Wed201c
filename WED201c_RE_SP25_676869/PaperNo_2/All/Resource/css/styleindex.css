@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid gray;
+  padding: 0 30px;
+}
+.search input {
+  width: 250px;
+  height: 30px;
+}
+.search button {
+  width: 70px;
+  height: 30px;
+  background-color: #f76e12;
+  color: white;
+  border: none;
+}
+.best-seller-container h1 {
+  color: #f7c212;
+  margin: 30px;
+  text-align: center;
+}
+.best-seller-content {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.best-seller-image {
+  display: flex;
+  margin: 10px 30px;
+}
+.supimage {
+  display: flex;
+  flex-direction: column;
+}
+.supimage img {
+  margin: 5px 0px;
+  height: 222px;
+  width: auto;
+}
+.mainimage img {
+  height: 918px;
+  margin: 5px;
+  width: auto;
+}
+.product-information {
+  margin: 10px;
+}
+.infor-header {
+  border-bottom: 1px solid gray;
+  line-height: 1.7;
+}
+.infor-header h2 {
+  color: #0071db;
+}
+.infor-header p {
+  color: rgb(0, 248, 211);
+}
+.infor-content {
+  line-height: 2.3;
+  font-size: 20px;
+  margin: 20px auto;
+}
+.infor-content del {
+  color: red;
+}
+.infor-content label {
+  display: inline-block;
+  min-width: 100px;
+  height: auto;
+}
+.infor-content input {
+  width: 150px;
+  height: 30px;
+}
+.buy-button {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.button {
+  background-color: rgb(3, 171, 157);
+  margin: 20px 10px;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 4px;
+}
+.return-policy h3 {
+  font-size: 25px;
+  margin: 20px;
+}
+.return-policy p {
+  font-size: 20px;
+  margin: 20px;
+}
+.saleoff-container h1 {
+  text-align: center;
+  color: #f7c212;
+  margin: 20px;
+}
+.saleoff-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product {
+  width: 280px;
+  height: 550px;
+  margin: 10px 30px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 15px gray;
+  position: relative;
+}
+.product img {
+  width: 280px;
+  height: auto;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.product h4 {
+  margin: 10px;
+  text-align: center;
+}
+.product p {
+  text-align: center;
+  color: red;
+}
+.product del {
+  color: black;
+}
+.product .button {
+  position: absolute;
+  bottom: 10px;
+  left: 80px;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #302722;
+  margin-top: 30px;
+  color: white;
+  line-height: 1.5;
+}
+.footer-container p,
+h5 {
+  margin: 10px;
+}

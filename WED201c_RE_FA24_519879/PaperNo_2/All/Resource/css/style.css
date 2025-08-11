@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+.menu {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.menu ul {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.famous-container h2 {
+  text-align: center;
+  margin: 20px;
+  color: #0ebfc6;
+}
+.image {
+  padding: 10px;
+}
+.famous-container {
+  margin: 10px;
+}
+.family-left {
+  padding: 10px 33px;
+}
+.family-center {
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 20px;
+}
+.family-center h2 {
+  text-align: center;
+  color: #0ebfc6;
+  margin-top: 10px;
+}
+.family-container {
+  display: flex;
+  flex-wrap: wrap; /* Giữ responsive khi xuống mobile */
+}
+
+.family-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Căn giữa theo chiều dọc */
+  align-items: center;
+}
+
+.family-right h4 {
+  color: #ed8116;
+}
+.family-right p {
+  background-color: #0ebfc6;
+  color: white;
+  min-width: 150px;
+  text-align: center;
+  height: auto;
+  padding: 10px;
+}
+.river-left {
+  padding: 10px 33px;
+}
+.river-left img {
+  min-height: 440px;
+}
+.river-center h2 {
+  text-align: center;
+  color: #0ebfc6;
+  margin-top: 10px;
+}
+.river-center {
+  line-height: 1.6;
+  text-align: justify;
+  font-size: 20px;
+}
+.river-right h2 {
+  text-align: center;
+  color: #0ebfc6;
+  margin-top: 10px;
+}
+.river-right input {
+  max-width: 320px;
+  height: auto;
+}
+.river-right button {
+  background-color: #ed8116;
+  color: white;
+  height: 45px;
+  width: auto;
+}
+
+.footer-container {
+  background-color: #0ebfc6;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+@media screen and (max-width: 768px) {
+  .menu ul {
+    display: block;
+    flex-direction: column;
+    text-align: start;
+  }
+  .family-right {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    min-width: 70%;
+  }
+}

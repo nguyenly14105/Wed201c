@@ -1,0 +1,147 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* logo */
+.logo,
+.logo a {
+  display: flex;
+  justify-content: center;
+}
+.logo img {
+  width: 50%;
+}
+/* menu */
+.menu a {
+  text-decoration: none;
+  color: #0066a5;
+}
+.menu li {
+  margin: 0px 20px;
+}
+.menu {
+  margin: 20px -15px;
+}
+.menu ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: #b3b6b6;
+  padding: 10px;
+}
+/* best seller */
+.textblue h1 {
+  text-align: center;
+  color: #0066a5;
+  margin: 30px auto;
+  font-size: 45px;
+}
+
+/* laptop image */
+.laptop {
+  display: flex;
+  justify-content: space-around;
+}
+.laptop-image {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 10px gray;
+  width: 60%;
+  height: 60%;
+  padding: 15px;
+}
+.main img {
+  height: 100%;
+}
+.sup img {
+  padding: 10px 5px;
+  width: 90%;
+  margin: 0 auto;
+}
+.sup {
+  box-shadow: 0 0 1px gray;
+  margin-left: 10px;
+  height: 550px;
+}
+.laptop-content {
+  box-shadow: 0 0 5px gray;
+  line-height: 3;
+  padding-left: 15px;
+  width: 500px;
+}
+
+.laptop-content h2 {
+  color: #ff9100;
+}
+.price {
+  color: #ff9100;
+  font-style: italic;
+  font-weight: bold;
+}
+.laptop-content p {
+  border-bottom: 1px solid rgb(171, 171, 171);
+}
+/* sale product */
+.product-content {
+  display: flex;
+  justify-content: space-around;
+}
+.product {
+  box-shadow: 0 0 10px gray;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.product p {
+  color: #ff9100;
+}
+.product div {
+  background-color: #ff9100;
+  color: white;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+}
+.feedback-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.avatar {
+  border-radius: 200px;
+  margin: 20px;
+  width: 20%;
+}
+.feedback {
+  line-height: 2;
+}
+.feedback img {
+  width: 200px;
+}
+/* footer */
+.footer {
+  padding: 20px;
+  background-color: #0388bc;
+  color: white;
+  line-height: 2;
+  margin-left: -15px;
+  margin-right: -15px;
+  display: flex;
+  justify-content: space-around;
+}
