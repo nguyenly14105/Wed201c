@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.logo img {
+  width: 15%;
+}
+.menu {
+  background-color: rgb(177, 177, 177);
+  height: 50px;
+  text-align: center;
+  padding: 12px 0px;
+}
+.menu a {
+  text-decoration: none;
+  margin-right: 50px;
+  color: white;
+  font-size: 20px;
+}
+.menu ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  align-items: center;
+}
+.banner {
+  display: flex;
+}
+.banner img {
+  width: 50%;
+}
+.content-about {
+  display: flex;
+}
+.content-left p {
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+.content-left h2 {
+  margin-bottom: 15px;
+  color: #17afde;
+}
+.content-left {
+  width: 59%;
+  padding: 30px 70px;
+  text-align: justify;
+}
+.content-right img {
+  padding: 20px;
+}
+.bluetext h1 {
+  text-align: center;
+  color: #17afde;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service-top,
+.service-bottom {
+  display: flex;
+  width: 60%;
+}
+.service-content {
+  margin: 20px;
+  padding: 20px 0px;
+  border: 1px solid orange;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service-content img {
+  width: 150px;
+  height: 100px;
+}
+.service p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.service a {
+  text-decoration: none;
+  color: white;
+  background-color: #03b6bc;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+.refrigeration {
+  display: flex;
+  justify-content: center;
+  height: 450px;
+}
+.refrigeration-content img {
+  width: 100%;
+  padding: 20px;
+  height: 80%;
+}
+.refrigeration-content {
+  width: 20%;
+  background-color: rgb(234, 234, 234);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px;
+}
+.refrigeration-content p {
+  margin-top: 20px;
+  color: rgb(255, 111, 0);
+}
+.footer {
+  padding: 10px;
+  background-color: #8e8e8ede;
+  color: white;
+  text-align: center;
+}
+.footer p,
+h5 {
+  margin: 10px;
+}

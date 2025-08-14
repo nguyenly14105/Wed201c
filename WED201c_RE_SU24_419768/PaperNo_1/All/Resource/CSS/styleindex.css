@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.logo img {
+  width: 20%;
+}
+.menu {
+  margin-left: -15px;
+  margin-right: -15px;
+  background-color: #2ec5c0;
+  padding: 15px;
+}
+.menu a {
+  margin: 0 20px;
+  color: white;
+}
+.menu ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+}
+.banner-left {
+  background-color: #f1f1f1;
+  width: 53%;
+  height: 486.75px;
+}
+
+.textblue h1 {
+  text-align: center;
+  color: #2ec5c0;
+  line-height: 1.7;
+}
+.banner-left {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding: 20px;
+  line-height: 1.7;
+}
+.line {
+  display: flex;
+  border-bottom: 5px solid #03b6bc;
+  width: 12%;
+  justify-content: flex-end;
+  border-radius: 6px;
+}
+.banner-left p {
+  text-align: justify;
+  font-size: 20px;
+}
+.section-container {
+  display: flex;
+  margin: 20px;
+}
+.best-seller,
+.sale-off {
+  width: 50%;
+}
+.product {
+  width: 50%;
+  margin: 20px;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.product img {
+  padding: 15px;
+  width: 100%;
+  height: 65%;
+}
+.price {
+  color: red;
+  margin: 20px;
+}
+.price del {
+  color: gray;
+}
+.buynow {
+  background-color: orange;
+  color: white;
+  border-radius: 35px;
+  display: inline-block;
+  padding: 10px;
+  width: 100px;
+}
+.best-seller-content {
+  display: flex;
+  height: 89%;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 20px 10px;
+}
+th {
+  background-color: #2ec5c0;
+}
+.sale-off table {
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+.consultation {
+  margin: 15px 0px;
+  background-color: #f1f1f1;
+}
+.consultation-content {
+  display: flex;
+
+  padding: 10px;
+}
+.consultation-left {
+  width: 45%;
+}
+.consultation-left img {
+  width: 100%;
+  height: 394px;
+}
+.consultation-right {
+  line-height: 2;
+  width: 60%;
+  padding: 0px 50px;
+}
+.consultation-right div {
+  display: flex;
+  margin: 20px 0px;
+}
+.consultation-right p {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.consultation-right label {
+  color: orange;
+  display: inline-block;
+  width: 100px;
+}
+.consultation-right input {
+  width: 400px;
+  height: 30px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.button input {
+  background-color: orange;
+  color: white;
+  width: 120px;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  margin: 20px 10px;
+}
+.footer {
+  background-color: #2ec5c0;
+  color: white;
+  text-align: center;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 10px;
+}
+.footer p,
+h4 {
+  padding: 10px;
+}

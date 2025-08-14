@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 100px;
+  height: auto;
+}
+.logo {
+  margin: 20px 10px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu li {
+  margin: 0 10px;
+}
+.menu a {
+  text-decoration: none;
+  color: #0ec0c3;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.search form {
+  display: flex;
+  height: 30px;
+  width: auto;
+  margin: auto 5px;
+}
+
+.search input {
+  border: 1px solid #ccc;
+  border-right: none;
+  padding: 10px;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.search button {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: rgb(105, 104, 104);
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+.line {
+  border: 0;
+  border-top: 5px double #0ec0c3;
+}
+.caMau {
+  display: flex;
+  margin: 20px;
+}
+.caMauContent {
+  margin: 10px 20px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+.caMauContent h1 {
+  color: #0ec0c3;
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.caMauContent p {
+  margin: 10px 0;
+  border: 0;
+  border-bottom: 3px solid #0ec0c3;
+  padding: 10px 0;
+}
+.caMauContent img {
+  width: 20px;
+}
+.title1 {
+  color: #deb33d;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+.title2 {
+  color: #0ec0c3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.visitMangrove h1 {
+  text-align: center;
+  color: #0ec0c3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.visitImage {
+  float: left;
+  margin: 20px;
+}
+.visitContent {
+  float: left;
+  max-width: 1000px;
+  height: auto;
+  margin-top: 20px;
+}
+.visitContent p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+.tourResgister h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #0ec0c3;
+  font-weight: bold;
+  margin: 20px 0px;
+}
+.tourResgisterContent {
+  display: flex;
+}
+.tourResgisterImage img {
+  margin: 0 20px;
+  height: 540px;
+  width: 870px;
+}
+.tourResgisterContentForm {
+  margin: 0 30px;
+  width: 620px;
+  height: 430px;
+  background-color: rgb(228, 228, 228);
+  border-radius: 6px;
+}
+.tourResgisterContentFormHeader {
+  background: #0ec0c3;
+  height: 70px;
+  width: auto;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.tourResgisterContentFormHeader h2 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.formTitle {
+  display: flex;
+  margin-bottom: 30px;
+  height: 25px;
+  width: auto;
+}
+.formTitle input,
+select {
+  height: 38px;
+  min-width: 400px;
+  margin: 20px;
+  margin-left: auto;
+}
+.formTitle label {
+  margin: 20px;
+}
+.location {
+  margin-top: 0px;
+}
+.location select {
+  height: 30px;
+  min-width: 400px;
+  margin: 20px;
+  margin-left: auto;
+}
+.button {
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.button p {
+  background-color: orange;
+  color: white;
+  height: 40px;
+  width: 150px;
+  margin-top: 30px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  margin-top: 30px;
+  display: flex;
+  background-color: rgb(2, 124, 230);
+  color: white;
+  padding: 30px;
+}
+.left,
+.right {
+  margin-left: 300px;
+  line-height: 2;
+}

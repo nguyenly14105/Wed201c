@@ -1,0 +1,160 @@
+body {
+  overflow-x: hidden;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  margin-left: 50px;
+}
+.logo {
+  width: 20.3%;
+}
+.logo img {
+  width: 30%;
+}
+.search {
+  width: 33.3%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+.search button {
+  background-color: black;
+  color: white;
+  height: 25px;
+  width: 60px;
+}
+.search input {
+  height: 25px;
+  width: 200px;
+}
+
+.menu a {
+  text-decoration: none;
+  margin: 0px 20px;
+  color: #14aee1;
+  font-size: 20px;
+}
+.menu ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.content-first {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.banner-left img {
+  margin-left: 50px;
+  margin-right: 30px;
+  width: 900px;
+}
+.content-first h1 {
+  color: #14aee1;
+  margin: 0px;
+}
+.content-right {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  text-align: justify;
+  margin-right: 30px;
+}
+.textblue h2 {
+  text-align: center;
+  color: #02a0c8;
+  font-size: 35px;
+  margin: 20px;
+}
+.sup-content {
+  display: flex;
+  height: 110px;
+}
+.sup-content img {
+  height: 100%;
+  margin-right: 10px;
+}
+.price {
+  color: orange;
+}
+.sup-content p {
+  margin: 20px 0px;
+  margin-top: 0px;
+}
+.booking {
+  display: flex;
+  justify-content: space-between;
+}
+.booking-left img {
+  margin-left: 50px;
+  width: 800px;
+}
+.booking-right {
+  width: 100%;
+  margin-left: 30px;
+  margin-right: 10px;
+  background-color: rgb(225, 225, 225);
+}
+.booking-right h3 {
+  color: orange;
+  text-align: center;
+  font-size: 25px;
+}
+.booking-right div {
+  margin: 30px 10px;
+}
+.booking-right label {
+  display: inline-block;
+  margin-left: 10px;
+  min-width: 120px;
+}
+.booking-right input,
+select {
+  height: 30px;
+  min-width: 300px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.button p {
+  background-color: orange;
+  color: white;
+  width: 20%;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  margin: 0px;
+}
+.feedback {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 30px;
+}
+.feedback img {
+  border-radius: 200px;
+}
+.feedback div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 15%;
+  text-align: center;
+}
+.footer {
+  padding: 20px;
+  background-color: #02a0c8;
+  color: white;
+  text-align: center;
+  margin: -15px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  text-align: start;
+}
